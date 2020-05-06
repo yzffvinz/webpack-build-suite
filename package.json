@@ -15,8 +15,8 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
     }
   },
   "keywords": [],
