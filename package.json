@@ -1,7 +1,7 @@
 {
-  "name": "builder-webpack",
+  "name": "webpack-build-suite",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack打包工具",
   "main": ".eslintrc.js",
   "directories": {
     "lib": "lib",
