@@ -8,8 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/.bin/_mocha",
-    "coverage": "nyc npm run test",
+    "mocha": "./node_modules/.bin/_mocha",
+    "test": "nyc npm run mocha",
     "eslint": "eslint .lib --fix"
   },
   "keywords": [],
