@@ -1,6 +1,8 @@
 
 const assert = require('assert');
 
+process.chdir(path.join(__dirname, 'smoke/template'));
+
 describe('webpack.base.js test case', () => {
   const baseConfig = require('../../lib/webpack.base');
 
