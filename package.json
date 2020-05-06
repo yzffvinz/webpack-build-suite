@@ -12,13 +12,7 @@
     "test": "nyc npm run mocha",
     "eslint": "eslint .lib --fix",
     "commitmsg": "validate-commit-msg",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "precommit": "npm commitmsg"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm commitmsg"
-    }
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +21,7 @@
     "assert": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "conventional-changelog-cli": "^2.0.31",
+    "cz-conventional-changelog": "^3.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "glob": "^7.1.6",
@@ -70,5 +65,10 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpack-merge": "^4.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
