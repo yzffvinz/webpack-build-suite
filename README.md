@@ -29,7 +29,7 @@ git cz xxx
 npm i validate-commit-msg -D
 ```
 
-- 生成changelog
+### 🎂 生成changelog
 
 ```
 // 安装
