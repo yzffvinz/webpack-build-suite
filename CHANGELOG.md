@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/yzffvinz/webpack-build-suite/compare/v1.2.1...v1.2.2) (2020-05-07)
+
+
+### Bug Fixes
+
+* 未安装ignore-loader ([8cebcaf](https://github.com/yzffvinz/webpack-build-suite/commit/8cebcaf27a1b6ce55e2e771024bd047813138abe))
+
+
+
 ## [1.2.1](https://github.com/yzffvinz/webpack-build-suite/compare/v1.2.0...v1.2.1) (2020-05-07)
 
 
